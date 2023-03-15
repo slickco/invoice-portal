@@ -1,52 +1,32 @@
 # invoice-portal
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple web application that demonstrates how to use the [Slick Invoice API](https://slickco.io) to render invoices for end users.
 
-## Recommended IDE Setup
+## Getting Started
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+```git clone https://github.com/slickco/invoice-portal.git```
 
-## Type Support for `.vue` Imports in TS
+```cd invoice-portal```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+```npm install```
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+```npm run dev```
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-## Customize configuration
+### Prerequisites
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+You will need to have [Node.js](https://nodejs.org/en/) installed on your machine.
 
-## Project Setup
+## Deployment
 
-```sh
-npm install
-```
+```npm run build```
 
-### Compile and Hot-Reload for Development
+```npm start```
 
-```sh
-npm run dev
-```
+## Built With
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+* Slickco.io - The API used to render invoices 
+* Vue.js - The web framework used for the frontend of the application
+* Tailwind CSS - The CSS framework used for styling the application 
+* Vite - The build tool used to bundle the application
+* TypeScript - The language used to write the application code

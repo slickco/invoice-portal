@@ -72,10 +72,9 @@ export default {
 <template>
   <!-- <router-link :to="{name: 'detailed-invoice', params: { pageTitle: `${invoice.invoiceNumber}`} }"/> -->
   <main>
-    <!-- <div id="invoice-detailed-main" class="h-max bg-gray-50"> -->
     <div id="invoice-detailed-main">
       <section
-        class="h-screen bg-gray-50 px-4 pt-10 sm:pt-20 antialiased text-black"
+        class="h-full bg-gray-50 px-4 pt-10 sm:pt-20 antialiased text-black"
       >
         <div
           id="invoice-detailed-container"
@@ -89,7 +88,7 @@ export default {
 
             <div
               v-if="invoice"
-              id="minimal-invoice-main"
+              id="detailed-invoice-main"
               class="flex-col justify-center"
             >
               <header

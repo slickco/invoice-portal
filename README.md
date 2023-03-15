@@ -19,9 +19,17 @@ You will need to have [Node.js](https://nodejs.org/en/) installed on your machin
 
 ## Deployment
 
-```npm run build```
+Using cloudflare pages, you can deploy this application in a few simple steps. 
 
-```npm start```
+1. Fork this repository
+2. Create a new project on [Cloudflare Pages](https://pages.cloudflare.com)
+3. Select your forked repository
+4. Set the build command to ```npm run build```
+5. Set the build directory to ```dist```
+6. Set the environment variables to the following:
+-   ```NODE_VERSION``` - `16` 
+7. Click the deploy button
+
 
 ## Built With
 
